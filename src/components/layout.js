@@ -25,10 +25,14 @@ const Layout = ({ children }) => {
 
   return (
     <>
-        <main>
-          <h1>Yasmin</h1>
-          <h2>Coming soon</h2>
-        </main>
+      <main>
+        <div class="card">
+          <div class="container">
+            <h4><b>Yasmin Abdullahi</b></h4>
+            <p>Herzlich Willkommen</p>
+          </div>
+        </div>
+      </main>
 
     </>
   )
