@@ -1,0 +1,11 @@
+.sidebar {
+    top: 0;
+    bottom: 0;
+    width: 28vw;
+    background-color: var(--blue);
+}
+
+.sidebar p {
+    color: white;
+    margin-bottom: 0.5rem;
+}

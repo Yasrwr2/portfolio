@@ -26,12 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <main>
-        <div class="card">
-          <div class="container">
-            <h4><b>Yasmin Abdullahi</b></h4>
-            <p>Herzlich Willkommen</p>
-          </div>
-        </div>
+        {children}
       </main>
 
     </>
