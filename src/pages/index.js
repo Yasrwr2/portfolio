@@ -10,7 +10,7 @@ import Sidebar from "../components/sidebar";
 const IndexPage = () => (
   <>
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Yasmin Abdullahi" />
       <Container />
     </Layout>
     <Sidebar />
