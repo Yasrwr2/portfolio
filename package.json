@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "yasmin-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Portfolio of Yasmin Abdullahi",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Thierry Schmidt",
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "gatsby": "^2.26.1",
