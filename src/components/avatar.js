@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image";
 
-const Avatar = () => {
+const Avatar = ({ style }) => {
     const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "profil.jpg" }) {
@@ -14,8 +14,6 @@ const Avatar = () => {
       }
     }
   `)
-
-  const style = { borderRadius: '50%', display: 'block', marginLeft: 'auto' }
 
   if (!data?.placeholderImage?.childImageSharp?.fixed) {
     return <div>Picture not found</div>
