@@ -6,6 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Container from "../components/container";
 import Sidebar from "../components/sidebar";
+import Logo from "../components/logo";
 
 const IndexPage = () => (
   <>
@@ -14,6 +15,7 @@ const IndexPage = () => (
       <Container />
     </Layout>
     <Sidebar />
+    <Logo />
   </>
 )
 

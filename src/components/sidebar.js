@@ -9,9 +9,9 @@ const Sidebar = () => {
             <Avatar style={{ borderRadius: '50%', display: 'block', marginLeft: 'auto' }} />
             <div className="mt-10">
                 <p className="m-0">Yasmin Abdullahi</p>
-                <a className="text-white" href="mailto:abdullahi.ya@gmail.com">abdullahi.ya@gmail.com</a>
-                <div className="flex justify-end mt-6">
-                    <a href="mailto:abdullahi.ya@gmail.com">
+                <a className="text-white" href="mailto:yasminabdullahi98@gmail.com">yasminabdullahi98@gmail.com</a>
+                <div className="flex justify-end mt-4">
+                    <a href="mailto:yasminabdullahi98@gmail.com">
                         <img src={mailIcon}></img>
                     </a>
                 </div>
