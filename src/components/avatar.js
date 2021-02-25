@@ -23,7 +23,8 @@ const Avatar = ({ style }) => {
     return (
         <Img
         fixed={data.placeholderImage.childImageSharp.fixed}
-        style={style} />
+        style={style}
+        alt="Profilbild Yasmin Abdullahi" />
     );
 }
 

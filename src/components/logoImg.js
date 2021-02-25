@@ -23,7 +23,8 @@ const LogoImg = ({ style }) => {
     return (
         <Img
         fixed={data.placeholderImage.childImageSharp.fixed}
-        style={style} />
+        style={style}
+        alt="Logo JGLP" />
     );
 }
 
