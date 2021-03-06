@@ -2,6 +2,7 @@ import React from "react";
 import "./container.css";
 import Avatar from './avatar';
 import mailIcon from "../images/email-white-24dp.svg";
+import Trail from './trail';
 
 const Container = () => {
     return (
@@ -16,9 +17,21 @@ const Container = () => {
                 </div>
             </div>
             <div className="hidden md:block h-screen">
-                <div className="coming-soon">
-                    <p className="text-center text-4xl text-gray-500 m-0">Kommt in Kürze</p>
+                <div className="header">
+                    <Trail>
+                        <span>Jung.</span>
+                        <span>Grün.</span>
+                        <span>Liberal.</span>
+                    </Trail>
+                    <div className="background-img"></div>
                 </div>
+                <nav>
+                    <p>Über mich</p>
+                    <p>Meine Politik</p>
+                    <p>In den Medien</p>
+                </nav>
+
+
             </div>
         </div>
     );
