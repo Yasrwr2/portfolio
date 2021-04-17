@@ -1,9 +1,7 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import "./container.css";
 import Avatar from './avatar';
-import mailIcon from "../images/email-white-24dp.svg";
-import Trail from './trail';
+import Hero from './hero';
 
 const Container = () => {
     return (
@@ -18,46 +16,11 @@ const Container = () => {
                 </div>
             </div>
             <div className="hidden md:block h-screen">
-                <div className="grid">
-                    <StaticImage
-                        src="../images/bg.jpg"
-                        alt=""
-                        style={{
-                            gridArea: "1/1",
-                            maxHeight: 300,
-                        }}
-                        layout="fullWidth"
-                        placeholder="tracedSVG"
-                        transformOptions={{grayscale: true}} />
-
-                    <div
-                        style={{
-                            // By using the same grid area for both, they are stacked on top of each other
-                            gridArea: "1/1",
-                            position: "relative",
-                            // This align the other elements left inside the hero component
-                            placeItems: "flex-start",
-                            display: "grid",
-                        }}
-                    >
-                        <Trail>
-                            <span>Jung.</span>
-                            <span>Grün.</span>
-                            <span>Liberal.</span>
-                        </Trail>
-                    </div>
-
-
-
-
+                <Hero />
+                <div className="mt-8 ml-8">
+                    <h1 className="text-4xl font-thin mb-3">Yasmin Abdullahi</h1>
+                    <p>Stadträtin Bern, Jung Grün Liberale</p>
                 </div>
-                <nav>
-                    <p>Über mich</p>
-                    <p>Meine Politik</p>
-                    <p>In den Medien</p>
-                </nav>
-
-
             </div>
         </div>
     );
