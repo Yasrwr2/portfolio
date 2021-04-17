@@ -7,7 +7,7 @@ const Container = () => {
     return (
         <div className="content mx-auto md:mr-0 relative">
             <div className="welcome md:hidden">
-                <div className="mt-20">
+                <div className="mt-20 text-center">
                     <Avatar style={{ borderRadius: '50%' }} />
                 </div>
                 <div className="mt-10">

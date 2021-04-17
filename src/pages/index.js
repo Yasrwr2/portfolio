@@ -10,7 +10,7 @@ import Logo from "../components/logo";
 const IndexPage = () => (
   <>
     <Layout>
-      <SEO title="Yasmin Abdullahi" />
+      <SEO title="Home" />
       <Container />
     </Layout>
     <Sidebar />
