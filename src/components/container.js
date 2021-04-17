@@ -19,7 +19,7 @@ const Container = () => {
                 <Hero />
                 <div className="mt-8 ml-8">
                     <h1 className="text-4xl font-thin mb-3">Yasmin Abdullahi</h1>
-                    <p>Stadträtin Bern, Jung Grün Liberale</p>
+                    <p>Stadträtin Bern, Junge Grünliberale</p>
                 </div>
             </div>
         </div>
