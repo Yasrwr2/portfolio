@@ -9,7 +9,8 @@ const Logo = () => (
         layout="fixed"
         width={120}
         placeholder="tracedSVG"
-        className="absolute top-4 right-4" />
+        style={{position: 'absolute'}}
+        className="top-4 right-4" />
 );
 
 
