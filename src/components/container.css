@@ -20,15 +20,9 @@
 }
 
 .background-img {
-  background-image: url("../images/bg.jpg");
-  background-size: cover;
-  height: 50vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  position: fixed;
   z-index: -1;
   filter: grayscale(1);
+  width: 100vw;
 }
 
 nav {
